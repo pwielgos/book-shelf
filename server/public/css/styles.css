@@ -25,6 +25,15 @@ section {
     margin-bottom: 15px;
 }
 
+td {
+  
+padding-right: 40px;
+padding-bottom: 5px;
+}
+
+th {
+    text-align: left;
+}
 
 
 

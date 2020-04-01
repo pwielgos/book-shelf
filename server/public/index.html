@@ -20,8 +20,17 @@
             <h3>Add Book</h3>
             <input type="text" id="Title" value="" placeholder="Title">
             <input type="text" id="Author" value="" placeholder="Author">
-            <input type="text" id="Read" value="" placeholder="Read">
-            <input type="text" id="Owned" value="" placeholder="Owned">
+            <label for="Read">Read</label>
+            <select id="Read">
+                <option value="Read">Read</option>
+                <option value="To Read">To Read</option>
+                <option value="Reading">Reading</option>
+            </select>
+            <label for="Owned">Owned?</label>
+            <select id="Owned">
+                <option value="True">Yes</option>
+                <option value="False">No</option>
+            </select>
             <button type="button" id="submitBtn">Add Book</button>
         </section>
         <table id="myTable" class="tablesorter">
