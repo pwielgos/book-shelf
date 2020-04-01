@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="vendors/jquery.js"></script>
+    <script src="vendors/jquery.tablesort.js"></script>
+    <script type="text/javascript" src="scripts/client.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Paige's Bookshelf</title>
+</head>
+
+<body>
+    <header>
+        <h1>Paige's Bookshelf</h1>
+    </header>
+    <main>
+        <section>
+            <h3>Add Book</h3>
+            <input type="text" id="Title" value="" placeholder="Title">
+            <input type="text" id="Author" value="" placeholder="Author">
+            <input type="text" id="Read" value="" placeholder="Read">
+            <input type="text" id="Owned" value="" placeholder="Owned">
+            <button type="button" id="submitBtn">Add Book</button>
+        </section>
+        <table id="myTable" class="tablesorter">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Read</th>
+                    <th>Owned</th>
+                </tr>
+            </thead>
+            <tbody id="bookshelf">
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
